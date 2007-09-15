@@ -28,7 +28,7 @@ BuildRequires:	aspell >= 0.50
 Requires:	aspell >= 0.50
 BuildRequires:	locales-cy
 
-# Mandrake Stuff
+# Mandriva Stuff
 Requires:	locales-%{languagecode}
 Provides:	aspell-dictionary
 
