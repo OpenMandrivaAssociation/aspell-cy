@@ -21,7 +21,6 @@ Source:		http://aspell.sourceforge.net/aspell-%{languagecode}-%{src_ver}.tar.bz2
 URL:		http://aspell.sourceforge.net/
 License:	GPL
 Epoch:		1
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 Provides: spell-cy
 
 BuildRequires:	aspell >= 0.50
