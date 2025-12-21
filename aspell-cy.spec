@@ -22,6 +22,11 @@ License:	GPLv2
 Url:		https://aspell.sourceforge.net/
 Source0:	http://aspell.sourceforge.net/aspell-%{languagecode}-%{src_ver}.tar.bz2
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	aspell >= 0.50
 BuildRequires:	locales-cy
 Requires:	aspell >= 0.50
